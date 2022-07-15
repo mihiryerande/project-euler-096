@@ -30,5 +30,7 @@ This was my process:
 * Wrote and executed **parse_sudoku.py** to format it a bit more nicely
 * Output of that went to **sudoku_formatted.txt**
 * Created a "interface" in Excel to solve the puzzles myself in file **sudoku.xlsx**
+  
+  * <a href="https://docs.google.com/spreadsheets/d/1DW1M4hKNbhx05Q4WddX5Wlxnzs8ton8oCt4vGTKD0sM/edit?usp=sharing">Sheet in Google Drive linked here</a>
 * Copy-pasted puzzles into sheet and solved one-by-one
 * Used Excel to aggregate the sum of the top-left numbers of the puzzles
