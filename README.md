@@ -1,6 +1,6 @@
 # Project Euler
 
-# Problem 96 - Su Doku
+## Problem 96 - Su Doku
 
 Su Doku (Japanese meaning *number place*) is the name given to a popular puzzle concept.
 Its origin is unclear, but credit must be attributed to Leonhard Euler who invented a similar, and much more difficult, puzzle idea called Latin Squares.
@@ -10,7 +10,7 @@ Below is an example of a typical starting puzzle grid and its solution grid.
 <div>
   <img src="https://projecteuler.net/project/images/p096_1.png">
   <img src="https://projecteuler.net/project/images/p096_2.png">
-</div
+</div>
 
 A well constructed Su Doku puzzle has a unique solution and can be solved by logic, although it may be necessary to employ "guess and test" methods in order to eliminate options (there is much contested opinion over this).
 The complexity of the search determines the difficulty of the puzzle;
@@ -20,3 +20,15 @@ The 6K text file, **sudoku.txt** (right click and 'Save Link/Target As...'), con
 
 By solving all fifty puzzles find the sum of the 3-digit numbers found in the top left corner of each solution grid;
 for example, 483 is the 3-digit number found in the top left corner of the solution grid above.
+
+## Method of Solving
+
+I know this could be solved programmatically without too much effort, but I just felt like doing the puzzles myself anyway.
+
+This was my process:
+* Raw puzzles file downloaded from *Project Euler* and saved here as **sudoku.txt**
+* Wrote and executed **parse_sudoku.py** to format it a bit more nicely
+* Output of that went to **sudoku_formatted.txt**
+* Created a "interface" in Excel to solve the puzzles myself in file **sudoku.xls**
+* Copy-pasted puzzles into sheet and solved one-by-one
+* Used Excel to aggregate the sum of the top-left numbers of the puzzles
