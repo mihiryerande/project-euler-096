@@ -29,6 +29,6 @@ This was my process:
 * Raw puzzles file downloaded from *Project Euler* and saved here as **sudoku.txt**
 * Wrote and executed **parse_sudoku.py** to format it a bit more nicely
 * Output of that went to **sudoku_formatted.txt**
-* Created a "interface" in Excel to solve the puzzles myself in file **sudoku.xls**
+* Created a "interface" in Excel to solve the puzzles myself in file **sudoku.xlsx**
 * Copy-pasted puzzles into sheet and solved one-by-one
 * Used Excel to aggregate the sum of the top-left numbers of the puzzles
